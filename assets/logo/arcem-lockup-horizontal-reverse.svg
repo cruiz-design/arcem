@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" role="img" aria-label="ARCEM Partners">
+  <!-- NOTA: el texto es editable y requiere la fuente Jost instalada.
+       Para artes finales, convertir a trazos (Illustrator: Texto > Crear contornos). -->
+  <g transform="translate(20 22) scale(0.48)">
+    <path fill="#4E8568" d="M96 28 68 108H52l-16 64h40l20-72Z"/>
+    <path fill="#C3C8C4" d="m104 28 28 80h16l16 64h-40l-20-72Z"/>
+  </g>
+  <text x="128" y="68" fill="#EDF0EC" font-family="Jost, 'Helvetica Neue', Arial, sans-serif"
+        font-size="44" font-weight="500" letter-spacing="11.9">ARCEM</text>
+  <text x="130" y="97" fill="#8FB8A1" font-family="Jost, 'Helvetica Neue', Arial, sans-serif"
+        font-size="17" font-weight="400" letter-spacing="6.8">PARTNERS</text>
+</svg>

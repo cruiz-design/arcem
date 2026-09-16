@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="ARCEM Partners — retícula de construcción">
+  <rect width="200" height="200" fill="#FFFFFF"/>
+  <g stroke="#E4E7E3" stroke-width="0.5">
+    <path d="M36 0V200M52 0V200M68 0V200M84 0V200M100 0V200M116 0V200M132 0V200M148 0V200M164 0V200"/>
+    <path d="M0 28H200M0 44H200M0 60H200M0 76H200M0 92H200M0 108H200M0 124H200M0 140H200M0 156H200M0 172H200"/>
+  </g>
+  <g stroke="#B9C0BA" stroke-width="0.7" stroke-dasharray="3 3">
+    <path d="M100 8V192"/><path d="M20 28H180M20 108H180M20 172H180"/>
+  </g>
+  <path fill="#1C3A2C" d="M96 28 68 108H52l-16 64h40l20-72Z"/>
+  <path fill="#6E7772" d="m104 28 28 80h16l16 64h-40l-20-72Z"/>
+</svg>

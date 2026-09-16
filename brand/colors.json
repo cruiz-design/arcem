@@ -1,0 +1,62 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "name": "ARCEM Partners",
+  "version": "1.0.0",
+  "brand": {
+    "verde": {
+      "value": "#1C3A2C",
+      "role": "Mitad izquierda del mark sobre fondo claro. Color primario de acción.",
+      "contrast": { "sobre_cal": 11.07, "aa_texto_normal": true }
+    },
+    "verdeMedio": {
+      "value": "#2F5A44",
+      "role": "Hover de botones y estados intermedios.",
+      "contrast": { "sobre_cal": 7.02, "aa_texto_normal": true }
+    },
+    "verdeLuz": {
+      "value": "#4E8568",
+      "role": "Mitad izquierda del mark sobre fondo oscuro. Acento en modo oscuro.",
+      "contrast": { "sobre_oscuro": 3.87, "aa_texto_normal": false, "nota": "Solo display y elementos grandes sobre oscuro." }
+    },
+    "piedra": {
+      "value": "#6E7772",
+      "role": "Mitad derecha del mark sobre fondo claro.",
+      "contrast": { "sobre_cal": 4.12, "aa_texto_normal": false, "nota": "Apto para texto grande y elementos gráficos." }
+    },
+    "piedraLuz": {
+      "value": "#C3C8C4",
+      "role": "Mitad derecha del mark sobre fondo oscuro.",
+      "contrast": { "sobre_oscuro": 9.81, "aa_texto_normal": true }
+    },
+    "oscuro": {
+      "value": "#13201A",
+      "role": "Superficie de marca: hero y footer. Se mantiene igual en tema claro y oscuro."
+    }
+  },
+  "temaClaro": {
+    "cal": "#F1F1EE",
+    "surface": "#FFFFFF",
+    "sunken": "#E8E9E5",
+    "ink": "#18211D",
+    "soft": "#555E59",
+    "faint": "#848C87",
+    "line": "#D8DAD6",
+    "hair": "#E4E5E1"
+  },
+  "temaOscuro": {
+    "cal": "#0D1310",
+    "surface": "#151E19",
+    "sunken": "#111813",
+    "ink": "#E6EBE7",
+    "soft": "#9AA49E",
+    "faint": "#737C77",
+    "line": "#232F28",
+    "hair": "#1C2721"
+  },
+  "prohibido": {
+    "grisOriginal": {
+      "value": "#AFB5B1",
+      "razon": "Da 1.86:1 sobre fondo claro. Solo se veía en el mockup 3D porque el render le ponía sombra. En plano desaparece. Sustituido por #6E7772."
+    }
+  }
+}

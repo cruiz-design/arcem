@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="ARCEM Partners — versión con volumen">
+  <defs>
+    <filter id="cast" x="-45%" y="-45%" width="210%" height="210%">
+      <feDropShadow dx="6" dy="9" stdDeviation="9" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="bevel" x="-30%" y="-30%" width="170%" height="170%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.6" result="b"/>
+      <feSpecularLighting in="b" surfaceScale="2.6" specularConstant="0.55" specularExponent="30" lighting-color="#FFFFFF" result="s">
+        <feDistantLight azimuth="228" elevation="54"/>
+      </feSpecularLighting>
+      <feComposite in="s" in2="SourceAlpha" operator="in" result="sc"/>
+      <feComposite in="SourceGraphic" in2="sc" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+  </defs>
+  <g filter="url(#cast)"><g filter="url(#bevel)">
+    <path fill="#1F4331" d="M106 38 78 118H62l-16 64h40l20-72Z"/>
+    <path fill="#6E7772" d="m114 38 28 80h16l16 64h-40l-20-72Z"/>
+  </g></g>
+</svg>

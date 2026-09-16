@@ -1,0 +1,67 @@
+/* ============================================================
+   ARCEM PARTNERS — DESIGN TOKENS
+   Fuente de verdad del sistema visual.
+   assets/css/styles.css duplica estos valores para que index.html
+   funcione sin build step. Si cambias un color aquí, cámbialo allá.
+   ============================================================ */
+
+:root{
+  /* ---- Colores de marca (fijos, no cambian con el tema) ---- */
+  --arcem-verde:        #1C3A2C;  /* mitad izquierda del mark, sobre fondo claro */
+  --arcem-verde-medio:  #2F5A44;  /* hover de botones, estados intermedios */
+  --arcem-verde-luz:    #4E8568;  /* mitad izquierda del mark, sobre fondo oscuro */
+  --arcem-piedra:       #6E7772;  /* mitad derecha del mark, sobre fondo claro */
+  --arcem-piedra-luz:   #C3C8C4;  /* mitad derecha del mark, sobre fondo oscuro */
+  --arcem-oscuro:       #13201A;  /* superficie de marca: hero, footer */
+  --arcem-oscuro-2:     #1B2C23;  /* superficie de marca elevada */
+
+  /* ---- Tema claro (por defecto) ---- */
+  --cal:      #F1F1EE;  /* fondo de página */
+  --surface:  #FFFFFF;  /* tarjetas, inputs */
+  --sunken:   #E8E9E5;  /* secciones hundidas */
+  --ink:      #18211D;  /* texto principal — negro con sesgo verde, no gris puro */
+  --soft:     #555E59;  /* texto secundario */
+  --faint:    #848C87;  /* etiquetas, metadatos */
+  --line:     #D8DAD6;  /* bordes visibles */
+  --hair:     #E4E5E1;  /* divisores finos */
+  --focus:    #4E8568;  /* anillo de foco */
+
+  /* ---- Sobre superficies de marca oscuras ---- */
+  --on-dark:       #EDF0EC;
+  --on-dark-soft:  #9BB0A4;
+  --on-dark-line:  #2A3B31;
+
+  /* ---- Tipografía ---- */
+  --font-display: Jost, "Helvetica Neue", Arial, sans-serif;
+  --font-body:    "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-mono:    "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* ---- Escala tipográfica ---- */
+  --t-hero:   clamp(35px, 5.6vw, 60px);
+  --t-h2:     clamp(27px, 3.7vw, 40px);
+  --t-h3:     26px;
+  --t-lede:   18px;
+  --t-body:   17px;
+  --t-small:  15.5px;
+  --t-label:  10.5px;   /* siempre en mayúsculas con letter-spacing .22em */
+
+  /* ---- Ritmo ---- */
+  --gutter:      24px;   /* mínimo 16px en cualquier ancho */
+  --max-width:   1160px;
+  --sec-space:   72px;
+}
+
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --cal:#0D1310; --surface:#151E19; --sunken:#111813;
+    --ink:#E6EBE7; --soft:#9AA49E; --faint:#737C77;
+    --line:#232F28; --hair:#1C2721;
+    --focus:#8FC4A6;
+  }
+}
+:root[data-theme="dark"]{
+  --cal:#0D1310; --surface:#151E19; --sunken:#111813;
+  --ink:#E6EBE7; --soft:#9AA49E; --faint:#737C77;
+  --line:#232F28; --hair:#1C2721;
+  --focus:#8FC4A6;
+}

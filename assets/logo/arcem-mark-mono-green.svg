@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="t">
+  <title id="t">ARCEM Partners — monocolor verde</title>
+  <!-- Cuña Escalonada · mitad izquierda -->
+  <path fill="#1C3A2C" d="M96 28 68 108H52l-16 64h40l20-72Z"/>
+  <!-- Cuña Escalonada · mitad derecha -->
+  <path fill="#1C3A2C" d="m104 28 28 80h16l16 64h-40l-20-72Z"/>
+</svg>
