@@ -23,20 +23,23 @@
   try { saved = localStorage.getItem(KEY); } catch (e) {}
   apply(saved === 'en' ? 'en' : 'es');
 
-  document.getElementById('consult-form').addEventListener('submit', function (e) {
-    e.preventDefault();
-    var f = e.target;
-    var en = document.documentElement.getAttribute('lang') === 'en';
-    var subject = (en ? 'Consultation request — ' : 'Solicitud de consulta — ') + (f.company.value || '');
-    var body = [
-      (en ? 'Name: ' : 'Nombre: ') + f.name.value,
-      (en ? 'Company: ' : 'Empresa: ') + f.company.value,
-      (en ? 'Email: ' : 'Correo: ') + f.email.value,
-      (en ? 'Topic: ' : 'Tema: ') + f.practice.options[f.practice.selectedIndex].text,
-      '',
-      f.note.value
-    ].join('\n');
-    window.location.href = 'mailto:servicio@arcempr.com?subject=' +
-      encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-  });
+  var form = document.getElementById('consult-form');
+  if (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var f = e.target;
+      var en = document.documentElement.getAttribute('lang') === 'en';
+      var subject = (en ? 'Consultation request — ' : 'Solicitud de consulta — ') + (f.company.value || '');
+      var body = [
+        (en ? 'Name: ' : 'Nombre: ') + f.name.value,
+        (en ? 'Company: ' : 'Empresa: ') + f.company.value,
+        (en ? 'Email: ' : 'Correo: ') + f.email.value,
+        (en ? 'Topic: ' : 'Tema: ') + f.practice.options[f.practice.selectedIndex].text,
+        '',
+        f.note.value
+      ].join('\n');
+      window.location.href = 'mailto:servicio@arcempr.com?subject=' +
+        encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    });
+  }
 })();

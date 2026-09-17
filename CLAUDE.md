@@ -110,8 +110,8 @@ Cualquier elemento con texto traducible lleva **dos atributos**:
 - [x] Teléfono — 787-718-7751
 - [x] Correo real — servicio@arcempr.com (sustituye a hola@arcempartners.com en `index.html` y `assets/js/main.js`)
 - [x] Dominio — www.arcempr.com (canonical actualizado; **falta** actualizar `og:image` y generar `og-image.png` con la ruta correcta)
-- [ ] Licencia OCS — el cliente pidió que **no aparezca** en el sitio. Quitada del hero y del footer. **Pendiente de verificar con compliance/legal si la OCS de Puerto Rico exige mostrarla en material de mercadeo de un corredor** antes de publicar — ver pregunta abierta #3 abajo.
-- [ ] `[##]` — las cuatro cifras de la barra de prueba (`sección .proof`). El cliente dio datos parciales que no encajan 1:1 con las etiquetas actuales (años de la firma vs. experiencia combinada de los socios; $100M en prima manejada, sin casilla propia; 100,000 vidas — ¿vigentes o acumuladas en la carrera?). Pendiente de confirmar antes de rellenar, para no publicar una cifra que lea como algo que no es.
+- [x] Licencia OCS — confirmado con compliance: **la OCS no exige mostrar el número de licencia** en el sitio de un corredor. Se queda fuera del hero y del footer, sin pendiente.
+- [ ] `[##]` — las cuatro cifras de la barra de prueba (`sección .proof`). El cliente pidió dejar **texto genérico de ejemplo** por ahora y sustituirlo más adelante por las cifras reales — se mantiene el marcador `[##]` tal cual, a propósito, hasta que lo editen.
 - [ ] Horario de oficina — verificar que sea correcto
 
 ### 🟠 Funcionalidad
@@ -146,12 +146,10 @@ La landing es la base. El sitio completo propuesto:
 
 ## Preguntas abiertas para el cliente
 
-No las resuelvas por tu cuenta:
-
-1. **¿«Partners» es la marca paraguas?** Los briefs originales hablaban de *ARCEM Benefits* y *ARCEM Commercial P&C* como marcas. El board de identidad usa *ARCEM Partners* con las dos prácticas como endosos. Si Partners está por encima, la arquitectura de navegación cambia.
-2. **¿El nombre legal coincide con el nombre comercial?** Afecta el footer y los avisos legales.
-3. **¿Qué requiere la OCS de Puerto Rico** en la web de un corredor: número de licencia, avisos, lenguaje obligatorio. Verificar antes de publicar.
-4. **¿Hay que declarar relaciones con carriers** por regulación o por política de la firma.
+1. ~~¿«Partners» es la marca paraguas?~~ **Resuelto:** el nombre de la compañía es ARCEM Partners — es la marca paraguas, las dos prácticas son líneas de negocio bajo ella, no marcas propias. La arquitectura de navegación actual (endosos, no marcas separadas) es correcta.
+2. ~~¿El nombre legal coincide con el nombre comercial?~~ **Resuelto:** sí, ARCEM Partners es también el nombre legal de la entidad.
+3. ~~¿Qué requiere la OCS de Puerto Rico?~~ **Resuelto:** confirmado con compliance, no exige mostrar el número de licencia en el sitio.
+4. **¿Hay que declarar relaciones con carriers** por regulación o por política de la firma. — Sigue abierta, no bloquea la construcción de las páginas.
 
 ---
 
