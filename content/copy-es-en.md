@@ -21,7 +21,6 @@ Al editar aquí, actualiza también los atributos `data-es` y `data-en` en `inde
 | Ver las dos prácticas | See both practices |
 | Employee Benefits | Employee Benefits |
 | Commercial Property & Casualty | Commercial Property & Casualty |
-| Licencia OCS [NÚMERO] | OCS License [NUMBER] |
 | Dos prácticas · una firma | Two practices · one firm |
 | Dos mitades que se sostienen empujándose. | Two halves that hold by pressing against each other. |
 | Beneficios y riesgo comercial se atienden por separado en casi toda la isla. Aquí se atienden en la misma mesa, porque los dos hablan del mismo negocio. | Benefits and commercial risk are handled by separate shops across most of the island. Here they sit at the same table, because both describe the same business. |
@@ -72,7 +71,6 @@ Al editar aquí, actualiza también los atributos `data-es` y `data-en` en `inde
 | Horario | Hours |
 | Lunes a viernes · 8:30 a.m. – 5:00 p.m. AST | Monday to Friday · 8:30 a.m. – 5:00 p.m. AST |
 | A stronger tomorrow. Together. | A stronger tomorrow. Together. |
-| LICENCIA OCS [NÚMERO] | OCS LICENSE [NUMBER] |
 | SAN JUAN · PUERTO RICO | SAN JUAN · PUERTO RICO |
 
 ---

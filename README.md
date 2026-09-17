@@ -44,9 +44,9 @@ Un primer encargo razonable:
 
 ## Antes de publicar
 
-Hay datos marcadores en el código, escritos entre corchetes: `[##]`, `[DIRECCIÓN]`, `[787-000-0000]`, `[NÚMERO]`. **Son marcadores a propósito, no datos reales** — hay que pedirle las cifras verdaderas a ARCEM y sustituirlas.
+Queda un dato marcador en el código, escrito entre corchetes: `[##]`, en la barra de prueba (años, empresas, carriers, vidas cubiertas). **Es un marcador a propósito, no un dato real** — hay que confirmar las cifras exactas con ARCEM antes de sustituirlo.
 
-El formulario de contacto tampoco envía a ningún sistema todavía: hoy abre el cliente de correo con el mensaje redactado. Hay que conectarlo a un CRM o a un servicio de formularios.
+El formulario de contacto no envía a ningún sistema: abre el cliente de correo con el mensaje redactado. El cliente confirmó que no usará CRM ni servicio de formularios por ahora, así que esto se queda así.
 
 La lista completa está en `CLAUDE.md`, bajo «Qué falta».
 

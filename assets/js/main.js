@@ -36,7 +36,7 @@
       '',
       f.note.value
     ].join('\n');
-    window.location.href = 'mailto:hola@arcempartners.com?subject=' +
+    window.location.href = 'mailto:servicio@arcempr.com?subject=' +
       encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
   });
 })();

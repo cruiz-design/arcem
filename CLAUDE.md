@@ -106,21 +106,17 @@ Cualquier elemento con texto traducible lleva **dos atributos**:
 
 ### 🔴 Bloqueantes antes de publicar
 
-Estos son datos reales que hay que pedirle al cliente. Están marcados en el código con corchetes:
-
-- [ ] `[##]` — las cuatro cifras de la barra de prueba: años asesorando, empresas bajo asesoría, carriers con acceso directo, vidas cubiertas
-- [ ] `[DIRECCIÓN]` — dirección de la oficina
-- [ ] `[787-000-0000]` — teléfono
-- [ ] `[NÚMERO]` — número de licencia OCS (aparece en el hero y en el footer)
-- [ ] `hola@arcempartners.com` — confirmar el correo real
-- [ ] `https://www.arcempartners.com/` — confirmar el dominio en el `<link rel="canonical">` y en los meta Open Graph
+- [x] Dirección de la oficina — 753 Valle del Toa, Campos de Montehiedra, San Juan, PR 00926
+- [x] Teléfono — 787-718-7751
+- [x] Correo real — servicio@arcempr.com (sustituye a hola@arcempartners.com en `index.html` y `assets/js/main.js`)
+- [x] Dominio — www.arcempr.com (canonical actualizado; **falta** actualizar `og:image` y generar `og-image.png` con la ruta correcta)
+- [ ] Licencia OCS — el cliente pidió que **no aparezca** en el sitio. Quitada del hero y del footer. **Pendiente de verificar con compliance/legal si la OCS de Puerto Rico exige mostrarla en material de mercadeo de un corredor** antes de publicar — ver pregunta abierta #3 abajo.
+- [ ] `[##]` — las cuatro cifras de la barra de prueba (`sección .proof`). El cliente dio datos parciales que no encajan 1:1 con las etiquetas actuales (años de la firma vs. experiencia combinada de los socios; $100M en prima manejada, sin casilla propia; 100,000 vidas — ¿vigentes o acumuladas en la carrera?). Pendiente de confirmar antes de rellenar, para no publicar una cifra que lea como algo que no es.
 - [ ] Horario de oficina — verificar que sea correcto
-
-Busca `[` y `TODO:` en `index.html` para encontrarlos todos.
 
 ### 🟠 Funcionalidad
 
-- [ ] **El formulario no envía a ningún lado.** Hoy abre el cliente de correo con `mailto:` y el mensaje redactado. Funciona, pero no captura leads. Conectar a Formspree, Netlify Forms, o al CRM que use el cliente. Preguntar cuál antes de elegir.
+- [x] Formulario — el cliente confirmó que **no usarán CRM ni servicio de formularios por ahora**. Se mantiene `mailto:` a servicio@arcempr.com.
 - [ ] `og-image.png` — falta generar la imagen de Open Graph (1200×630). Usar el mark sobre `#13201A` con el wordmark.
 - [ ] Analítica — preguntar al cliente qué usa antes de instalar nada.
 - [ ] Aviso de cookies solo si se instala analítica con cookies.
