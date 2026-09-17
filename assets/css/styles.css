@@ -197,6 +197,12 @@ form{display:flex; flex-direction:column; gap:16px}
 .reach .rv a:hover{color:var(--ink)}
 .ph{color:var(--faint); font-family:"IBM Plex Mono",monospace; font-size:14px}
 
+/* mapa (contacto) */
+.map-frame{border:1px solid var(--line); overflow:hidden; margin-top:36px}
+.map-frame iframe{display:block; width:100%; height:380px; border:0}
+.map-link{font-family:Jost,sans-serif; font-size:14px; letter-spacing:.06em; color:var(--green); text-decoration:none; border-bottom:1px solid currentColor; padding-bottom:2px; display:inline-block; margin-top:14px}
+.map-link:hover{color:var(--ink)}
+
 /* footer */
 footer{background:var(--brand-dark); color:var(--on-dark)}
 .foot-in{padding-block:46px; display:flex; flex-direction:column; gap:30px}

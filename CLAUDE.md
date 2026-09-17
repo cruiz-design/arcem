@@ -125,16 +125,19 @@ Cualquier elemento con texto traducible lleva **dos atributos**:
 
 La landing es la base. El sitio completo propuesto:
 
-| Ruta | Contenido |
-|---|---|
-| `/` | Landing (ya existe) |
-| `/beneficios` · `/benefits` | Detalle de Employee Benefits: qué cubre, proceso de renovación, apoyo al empleado |
-| `/comercial` · `/commercial` | Detalle de Commercial P&C: líneas, riesgo de viento, continuidad de negocio |
-| `/firma` · `/about` | La firma: origen del nombre, principales, credenciales |
-| `/contacto` · `/contact` | Formulario ampliado, mapa, horario |
-| `/recursos` | Opcional. Guías de renovación, calendario de temporada de huracanes |
+| Ruta | Contenido | Estado |
+|---|---|---|
+| `/` (`index.html`) | Landing | Hecho |
+| `/beneficios` (`beneficios.html`) | Detalle de Employee Benefits: qué cubre, proceso de renovación, apoyo al empleado | Hecho |
+| `/comercial` (`comercial.html`) | Detalle de Commercial P&C: líneas, riesgo de viento, continuidad de negocio | Hecho |
+| `/firma` (`firma.html`) | Origen del nombre, principales (Carlos A. Ruiz y Edgar Almodóvar), valores | Hecho — falta credenciales/certificaciones (marcador `[…]` a propósito) |
+| `/contacto` (`contacto.html`) | Formulario ampliado (+ teléfono), dirección, horario, mapa embebido de Google Maps | Hecho |
+| `/benefits` · `/commercial` · `/about` · `/contact` (alias en inglés) | — | **Pendiente de decidir:** hoy el sitio no tiene rutas en inglés separadas — el toggle ES/EN vive dentro de cada página en español. Si se quieren URLs en inglés de verdad, hay que decidir el enfoque (archivos duplicados vs. redirects del hosting) antes de crearlas. |
+| `/recursos` | Opcional. Guías de renovación, calendario de temporada de huracanes | No empezado |
 
 **Al construir cada página nueva:** reutiliza el encabezado, el footer, los tokens y los patrones de `index.html` tal cual. Misma retícula, mismo ritmo vertical, mismos componentes. No inventes un lenguaje visual nuevo por página.
+
+El header ahora incluye un enlace a "La firma" en las 5 páginas existentes, y el botón "Agendar consulta" del header y las CTAs de las páginas nuevas apuntan a `contacto.html` (la landing conserva su propio formulario en `#contacto` sin cambios).
 
 ### 🟢 Pendientes de diseño
 

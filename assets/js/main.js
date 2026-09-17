@@ -33,11 +33,11 @@
       var body = [
         (en ? 'Name: ' : 'Nombre: ') + f.name.value,
         (en ? 'Company: ' : 'Empresa: ') + f.company.value,
-        (en ? 'Email: ' : 'Correo: ') + f.email.value,
-        (en ? 'Topic: ' : 'Tema: ') + f.practice.options[f.practice.selectedIndex].text,
-        '',
-        f.note.value
-      ].join('\n');
+        (en ? 'Email: ' : 'Correo: ') + f.email.value
+      ];
+      if (f.phone) body.push((en ? 'Phone: ' : 'Teléfono: ') + f.phone.value);
+      body.push((en ? 'Topic: ' : 'Tema: ') + f.practice.options[f.practice.selectedIndex].text, '', f.note.value);
+      body = body.join('\n');
       window.location.href = 'mailto:servicio@arcempr.com?subject=' +
         encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
     });
