@@ -112,15 +112,14 @@ Cualquier elemento con texto traducible lleva **dos atributos**:
 - [x] Dominio — www.arcempr.com (canonical actualizado; **falta** actualizar `og:image` y generar `og-image.png` con la ruta correcta)
 - [x] Licencia OCS — confirmado con compliance: **la OCS no exige mostrar el número de licencia** en el sitio de un corredor. Se queda fuera del hero y del footer, sin pendiente.
 - [ ] `[##]` — las cuatro cifras de la barra de prueba (`sección .proof`). El cliente pidió dejar **texto genérico de ejemplo** por ahora y sustituirlo más adelante por las cifras reales — se mantiene el marcador `[##]` tal cual, a propósito, hasta que lo editen.
-- [ ] Horario de oficina — pendiente de confirmar que sea correcto
+- [x] Horario de oficina — confirmado con el cliente: "Lunes a viernes · 8:30 a.m. – 5:00 p.m. AST" es correcto tal cual está.
 - [ ] Credenciales/certificaciones de Carlos A. Ruiz y Edgar Almodóvar en `/firma` — pendiente, ningún brief las menciona.
 
 ### 🟠 Funcionalidad
 
 - [x] Formulario — el cliente confirmó que **no usarán CRM ni servicio de formularios por ahora**. Se mantiene `mailto:` a servicio@arcempr.com, ahora también en `/contacto` con campo de teléfono opcional.
 - [x] `og-image.png` — generado en `assets/logo/og-image.png` (1200×630, mark + wordmark sobre `#13201A`, a partir de `arcem-lockup-horizontal-reverse.svg`). Referenciado en las 5 páginas.
-- [ ] Analítica — preguntar al cliente qué usa antes de instalar nada.
-- [ ] Aviso de cookies solo si se instala analítica con cookies.
+- [x] Analítica — confirmado con el cliente: **no usan analítica por ahora**. No se instala nada. Si más adelante se agrega algo con cookies no esenciales, hay que añadir aviso de cookies entonces — no aplica hoy.
 
 ### 🟡 Páginas por construir
 
