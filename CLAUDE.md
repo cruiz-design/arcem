@@ -6,7 +6,7 @@ Instrucciones para Claude Code. Léelas completas antes de tocar un archivo.
 
 ## Qué es este proyecto
 
-Sitio web de **ARCEM Partners**, corredores de seguros (broker) en San Juan, Puerto Rico. Dos prácticas: **Employee Benefits** y **Commercial Property & Casualty**.
+Sitio web de **ARCEM Partners**, corredores de seguros (broker) en San Juan, Puerto Rico. Dos prácticas: **Commercial Property & Casualty** y **Employee Benefits**.
 
 Lo que ya existe en el repositorio es la **landing page terminada** (`index.html`), la identidad visual completa y los archivos de logo. Lo que falta es construir el resto del sitio a partir de esa base y sustituir los datos marcadores.
 

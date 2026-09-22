@@ -16,14 +16,14 @@ Al editar aquí, actualiza también los atributos `data-es` y `data-en` en `inde
 | Agendar consulta | Book a consult |
 | Corredores de seguros · San Juan, Puerto Rico | Insurance brokers · San Juan, Puerto Rico |
 | El seguro se prueba <em>un solo día.</em> | Insurance is tested on <em>one single day.</em> |
-| El de la reclamación. Todo lo demás —la cotización, la renovación, el papeleo— es preparación para ese día. Diseñamos programas de beneficios y de riesgo comercial para que ese día usted no lo enfrente solo. | Claim day. Everything else — the quote, the renewal, the paperwork — is preparation for that day. We design employee benefits and commercial risk programs so that when it comes, you are not facing it alone. |
+| El de la reclamación. Todo lo demás —la cotización, la renovación, el papeleo— es preparación para ese día. Diseñamos programas de riesgo comercial y de beneficios para que ese día usted no lo enfrente solo. | Claim day. Everything else — the quote, the renewal, the paperwork — is preparation for that day. We design commercial risk and employee benefits programs so that when it comes, you are not facing it alone. |
 | Agendar una consulta | Schedule a consultation |
 | Ver las dos prácticas | See both practices |
 | Employee Benefits | Employee Benefits |
 | Commercial Property & Casualty | Commercial Property & Casualty |
 | Dos prácticas · una firma | Two practices · one firm |
 | Dos mitades que se sostienen empujándose. | Two halves that hold by pressing against each other. |
-| Beneficios y riesgo comercial se atienden por separado en casi toda la isla. Aquí se atienden en la misma mesa, porque los dos hablan del mismo negocio. | Benefits and commercial risk are handled by separate shops across most of the island. Here they sit at the same table, because both describe the same business. |
+| Riesgo comercial y beneficios se atienden por separado en casi toda la isla. Aquí se atienden en la misma mesa, porque los dos hablan del mismo negocio. | Commercial risk and benefits are handled by separate shops across most of the island. Here they sit at the same table, because both describe the same business. |
 | Lo que su gente usa cuando le toca | What your people use when they need it |
 | Diseño del plan, negociación con carriers y la parte que casi nadie hace: acompañar a su equipo el día que tiene que usarlo. | Plan design, carrier negotiation, and the part almost nobody does: standing with your team the day they have to use it. |
 | Planes médicos grupales y dentales | Group medical and dental plans |
