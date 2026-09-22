@@ -48,11 +48,10 @@ Al editar aquí, actualiza también los atributos `data-es` y `data-en` en `inde
 | La firma | The firm |
 | Arcem: la ciudadela, la parte que no cede. | Arcem: the citadel — the part that does not give. |
 | El nombre viene del latín. Es la misma raíz que nombra la fortaleza que lleva quinientos años frente al Atlántico, a veinte minutos de nuestra oficina. No es una metáfora cómoda: es el estándar con el que medimos un programa de seguros. | The name comes from Latin. It shares a root with the fortress that has stood facing the Atlantic for five hundred years, twenty minutes from our office. It is not a comfortable metaphor — it is the standard we measure an insurance program against. |
-| Años asesorando<br>empresas en la isla | Years advising<br>businesses on the island |
-| Empresas<br>bajo asesoría | Companies<br>under advisory |
-| Carriers<br>con acceso directo | Carriers<br>with direct access |
-| Vidas cubiertas<br>en planes grupales | Lives covered<br>in group plans |
-| Los valores entre corchetes son marcadores — sustituirlos por las cifras reales de ARCEM antes de publicar. | Bracketed values are placeholders — replace with ARCEM's real figures before going live. |
+| Años de experiencia<br>de nuestros socios | Years of experience<br>our partners bring |
+| En prima colocada<br>por nuestros socios | In premium placed<br>by our partners |
+| Acceso a los principales carriers<br>de PR y mercados como Lloyd's | Access to Puerto Rico's leading<br>carriers and markets like Lloyd's |
+| Vidas cubiertas a lo largo de<br>la trayectoria de nuestros socios | Lives covered over the course<br>of our partners' careers |
 | Conversemos | Let's talk |
 | Empecemos por leer lo que ya tiene. | Let's start by reading what you already have. |
 | Una primera conversación de treinta minutos y una revisión de sus pólizas vigentes. Sin costo y sin compromiso de colocación. | A first thirty-minute conversation and a review of your current policies. No cost, no obligation to place. |
