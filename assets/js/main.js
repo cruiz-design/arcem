@@ -19,9 +19,10 @@
   btnEs.addEventListener('click', function () { apply('es'); });
   btnEn.addEventListener('click', function () { apply('en'); });
 
+  var pageDefault = document.documentElement.getAttribute('lang') === 'en' ? 'en' : 'es';
   var saved = null;
   try { saved = localStorage.getItem(KEY); } catch (e) {}
-  apply(saved === 'en' ? 'en' : 'es');
+  apply(saved === 'en' ? 'en' : (saved === 'es' ? 'es' : pageDefault));
 
   var form = document.getElementById('consult-form');
   if (form) {
