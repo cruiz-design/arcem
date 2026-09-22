@@ -111,7 +111,7 @@ Cualquier elemento con texto traducible lleva **dos atributos**:
 - [x] Correo real — servicio@arcempr.com (sustituye a hola@arcempartners.com en `index.html` y `assets/js/main.js`)
 - [x] Dominio — www.arcempr.com (canonical actualizado; **falta** actualizar `og:image` y generar `og-image.png` con la ruta correcta)
 - [x] Licencia OCS — confirmado con compliance: **la OCS no exige mostrar el número de licencia** en el sitio de un corredor. Se queda fuera del hero y del footer, sin pendiente.
-- [ ] `[##]` — las cuatro cifras de la barra de prueba (`sección .proof`). El cliente pidió dejar **texto genérico de ejemplo** por ahora y sustituirlo más adelante por las cifras reales — se mantiene el marcador `[##]` tal cual, a propósito, hasta que lo editen.
+- [x] Barra de prueba (`sección .proof`) — rellenada con cifras reales: **20+** años de experiencia combinada de los socios, **$100M+** en prima colocada, acceso **global** a carriers (PR + mercados como Lloyd's of London), **100,000+** vidas cubiertas. Como ARCEM se fundó el 15 de septiembre de 2026, los rótulos atribuyen explícitamente estas cifras a la trayectoria de los socios, no a la historia de la empresa.
 - [x] Horario de oficina — confirmado con el cliente: "Lunes a viernes · 8:30 a.m. – 5:00 p.m. AST" es correcto tal cual está.
 - [ ] Credenciales/certificaciones de Carlos A. Ruiz y Edgar Almodóvar en `/firma` — pendiente, ningún brief las menciona.
 
