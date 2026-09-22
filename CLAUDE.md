@@ -150,7 +150,7 @@ Son archivos separados (`benefits.html`, `commercial.html`, `about.html`, `conta
 
 ### 🟢 Pendientes de diseño
 
-- [ ] **Convertir el texto de los lockups SVG a trazos.** Hoy llevan texto vivo que necesita Jost instalada. Para proveedores externos e impresión hay que convertirlo. En la web no aplica — ahí el wordmark se compone con HTML.
+- [ ] **Convertir el texto de los lockups SVG a trazos** — **pospuesto a propósito**, el cliente lo dejó para más adelante (retomar cuando haya papelería o material de imprenta en curso). Hoy llevan texto vivo que necesita Jost instalada. En la web no aplica — ahí el wordmark se compone con HTML.
 - [ ] Fotografía. No hay ninguna todavía. Si se añade: San Juan real, oficinas reales, gente real. **Nada de stock de ejecutivos dándose la mano.**
 - [ ] Estados de foco y hover revisados en todos los enlaces nuevos.
 
@@ -161,7 +161,7 @@ Son archivos separados (`benefits.html`, `commercial.html`, `about.html`, `conta
 1. ~~¿«Partners» es la marca paraguas?~~ **Resuelto:** el nombre de la compañía es ARCEM Partners — es la marca paraguas, las dos prácticas son líneas de negocio bajo ella, no marcas propias. La arquitectura de navegación actual (endosos, no marcas separadas) es correcta.
 2. ~~¿El nombre legal coincide con el nombre comercial?~~ **Resuelto:** sí, ARCEM Partners es también el nombre legal de la entidad.
 3. ~~¿Qué requiere la OCS de Puerto Rico?~~ **Resuelto:** confirmado con compliance, no exige mostrar el número de licencia en el sitio.
-4. **¿Hay que declarar relaciones con carriers** por regulación o por política de la firma. — Sigue abierta, no bloquea la construcción de las páginas.
+4. ~~¿Hay que declarar relaciones con carriers?~~ **Resuelto:** el cliente confirmó que no aplica. No se agrega ningún texto de divulgación de compensación de carriers al sitio.
 
 ---
 
