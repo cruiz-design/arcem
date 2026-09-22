@@ -130,14 +130,23 @@ La landing es la base. El sitio completo propuesto:
 | `/` (`index.html`) | Landing | Hecho |
 | `/beneficios` (`beneficios.html`) | Detalle de Employee Benefits: qué cubre, proceso de renovación, apoyo al empleado | Hecho |
 | `/comercial` (`comercial.html`) | Detalle de Commercial P&C: líneas, riesgo de viento, continuidad de negocio | Hecho |
-| `/firma` (`firma.html`) | Origen del nombre, principales (Carlos A. Ruiz y Edgar Almodóvar), valores | Hecho — falta credenciales/certificaciones (marcador `[…]` a propósito) |
+| `/firma` (`firma.html`) | Origen del nombre, principales (Carlos A. Ruiz y Edgar Almodóvar), valores | Hecho — Carlos con credenciales (CPCU · AU · ARe · AINS), Edgar sin ninguna por ahora |
 | `/contacto` (`contacto.html`) | Formulario ampliado (+ teléfono), dirección, horario, mapa embebido de Google Maps | Hecho |
-| `/benefits` · `/commercial` · `/about` · `/contact` (alias en inglés) | — | **Pendiente de decidir:** hoy el sitio no tiene rutas en inglés separadas — el toggle ES/EN vive dentro de cada página en español. Si se quieren URLs en inglés de verdad, hay que decidir el enfoque (archivos duplicados vs. redirects del hosting) antes de crearlas. |
+| `/benefits` (`benefits.html`) | Alias en inglés de `/beneficios` | Hecho |
+| `/commercial` (`commercial.html`) | Alias en inglés de `/comercial` | Hecho |
+| `/about` (`about.html`) | Alias en inglés de `/firma` | Hecho |
+| `/contact` (`contact.html`) | Alias en inglés de `/contacto` | Hecho |
 | `/recursos` | Opcional. Guías de renovación, calendario de temporada de huracanes | No empezado |
 
 **Al construir cada página nueva:** reutiliza el encabezado, el footer, los tokens y los patrones de `index.html` tal cual. Misma retícula, mismo ritmo vertical, mismos componentes. No inventes un lenguaje visual nuevo por página.
 
-El header ahora incluye un enlace a "La firma" en las 5 páginas existentes, y el botón "Agendar consulta" del header y las CTAs de las páginas nuevas apuntan a `contacto.html` (la landing conserva su propio formulario en `#contacto` sin cambios).
+El header ahora incluye un enlace a "La firma" en las 9 páginas existentes, y el botón "Agendar consulta" del header y las CTAs de las páginas nuevas apuntan a `contacto.html`/`contact.html` (la landing conserva su propio formulario en `#contacto` sin cambios, y no tiene alias en inglés — `index.html` es la única URL para `/`).
+
+### Cómo funcionan los alias en inglés
+
+Son archivos separados (`benefits.html`, `commercial.html`, `about.html`, `contact.html`), no redirects. Cada uno tiene su contenido **ya resuelto en inglés** en el HTML fuente (no solo `<html lang="en">` con texto en español esperando a que corra `main.js`) — evita el parpadeo de idioma y mantiene el `lang` del documento consistente con el contenido para SEO/accesibilidad desde la primera carga. Se generan a partir de su par en español; si editas `beneficios.html`, `comercial.html`, `firma.html` o `contacto.html`, hay que regenerar el alias correspondiente (o pedírselo a Claude Code) para que no queden desincronizados.
+
+`assets/js/main.js` toma el idioma por defecto del propio `<html lang="...">` de cada página en vez de asumir español siempre — así el toggle y el guardado en `localStorage` funcionan igual en las 9 páginas sin duplicar el script. Visitar cualquier página en inglés deja todo el sitio en inglés (vía `localStorage`), incluida la landing, aunque esta no tenga URL propia en inglés.
 
 ### 🟢 Pendientes de diseño
 
