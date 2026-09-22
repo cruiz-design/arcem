@@ -136,7 +136,7 @@ La landing es la base. El sitio completo propuesto:
 | `/commercial` (`commercial.html`) | Alias en inglés de `/comercial` | Hecho |
 | `/about` (`about.html`) | Alias en inglés de `/firma` | Hecho |
 | `/contact` (`contact.html`) | Alias en inglés de `/contacto` | Hecho |
-| `/recursos` | Opcional. Guías de renovación, calendario de temporada de huracanes | No empezado |
+| `/recursos` | Opcional. Guías de renovación, calendario de temporada de huracanes | **Descartada por ahora** — el cliente decidió no construirla. Necesitaría contenido técnico propio (checklists, fechas) que nadie ha escrito todavía; retomar si algún día quieren ese contenido. |
 
 **Al construir cada página nueva:** reutiliza el encabezado, el footer, los tokens y los patrones de `index.html` tal cual. Misma retícula, mismo ritmo vertical, mismos componentes. No inventes un lenguaje visual nuevo por página.
 
