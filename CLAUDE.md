@@ -134,21 +134,27 @@ La landing es la base. El sitio completo propuesto:
 | `/comercial` (`comercial.html`) | Detalle de Commercial P&C: líneas, riesgo de viento, continuidad de negocio | Hecho |
 | `/firma` (`firma.html`) | Origen del nombre, principales (Carlos A. Ruiz y Edgar Almodóvar), valores | Hecho — Carlos con credenciales (CPCU · AU · ARe · AINS), Edgar sin ninguna por ahora |
 | `/contacto` (`contacto.html`) | Formulario ampliado (+ teléfono), dirección, horario, mapa embebido de Google Maps | Hecho |
+| `/productos` (`productos.html`) | Desglose completo de coberturas por categoría (Property & Casualty, Financial & Specialty Lines, Personal Lines, Life Insurance and Employee Benefits) | Hecho — lista confirmada por el cliente, basada en la estructura de sgipr.com/products pero con las coberturas propias de ARCEM |
 | `/benefits` (`benefits.html`) | Alias en inglés de `/beneficios` | Hecho |
 | `/commercial` (`commercial.html`) | Alias en inglés de `/comercial` | Hecho |
 | `/about` (`about.html`) | Alias en inglés de `/firma` | Hecho |
 | `/contact` (`contact.html`) | Alias en inglés de `/contacto` | Hecho |
+| `/products` (`products.html`) | Alias en inglés de `/productos` | Hecho |
 | `/recursos` | Opcional. Guías de renovación, calendario de temporada de huracanes | **Descartada por ahora** — el cliente decidió no construirla. Necesitaría contenido técnico propio (checklists, fechas) que nadie ha escrito todavía; retomar si algún día quieren ese contenido. |
 
 **Al construir cada página nueva:** reutiliza el encabezado, el footer, los tokens y los patrones de `index.html` tal cual. Misma retícula, mismo ritmo vertical, mismos componentes. No inventes un lenguaje visual nuevo por página.
 
-El header ahora incluye un enlace a "La firma" en las 9 páginas existentes, y el botón "Agendar consulta" del header y las CTAs de las páginas nuevas apuntan a `contacto.html`/`contact.html` (la landing conserva su propio formulario en `#contacto` sin cambios, y no tiene alias en inglés — `index.html` es la única URL para `/`).
+El header incluye enlaces a "Practices", "Products" y "The firm" en las 11 páginas existentes, y el botón "Agendar consulta" del header y las CTAs de las páginas nuevas apuntan a `contacto.html`/`contact.html` (la landing conserva su propio formulario en `#contacto` sin cambios, y no tiene alias en inglés — `index.html` es la única URL para `/`).
+
+### `/productos` — categoría + lista de coberturas
+
+Componente nuevo en `styles.css`: `.prod-block` (nombre de categoría a la izquierda, lista a la derecha, separado por líneas finas) y `.prod-list` (la lista en sí, a dos columnas en pantallas ≥600px). Inspirado en la estructura de sgipr.com/products, pero con las coberturas reales de ARCEM — confirmadas por el cliente vía un checklist, no copiadas del sitio de referencia. Este mismo componente sirve de base si más adelante se agregan más categorías.
 
 ### Cómo funcionan los alias en inglés
 
-Son archivos separados (`benefits.html`, `commercial.html`, `about.html`, `contact.html`), no redirects — URLs limpias en inglés para linkear directamente. Desde que el idioma base cambió a inglés en las 9 páginas, su contenido es prácticamente igual al de su archivo hermano en español (`beneficios.html`, `comercial.html`, `firma.html`, `contacto.html`): ambos muestran inglés por defecto. La única diferencia real entre cada par es la URL/canonical y, si hace falta, sus propios meta tags. Cada archivo tiene su contenido **ya resuelto en el idioma que le toca mostrar por defecto** directamente en el HTML fuente (no solo `<html lang>` con texto esperando a que corra `main.js`) — evita el parpadeo de idioma y mantiene el `lang` del documento consistente con el contenido para SEO/accesibilidad desde la primera carga.
+Son archivos separados (`benefits.html`, `commercial.html`, `about.html`, `contact.html`, `products.html`), no redirects — URLs limpias en inglés para linkear directamente. Desde que el idioma base cambió a inglés, su contenido es prácticamente igual al de su archivo hermano en español (`beneficios.html`, `comercial.html`, `firma.html`, `contacto.html`, `productos.html`): ambos muestran inglés por defecto. La única diferencia real entre cada par es la URL/canonical y, si hace falta, sus propios meta tags. Cada archivo tiene su contenido **ya resuelto en el idioma que le toca mostrar por defecto** directamente en el HTML fuente (no solo `<html lang>` con texto esperando a que corra `main.js`) — evita el parpadeo de idioma y mantiene el `lang` del documento consistente con el contenido para SEO/accesibilidad desde la primera carga.
 
-**Si editas cualquiera de las 5 páginas canónicas** (`index.html`, `beneficios.html`, `comercial.html`, `firma.html`, `contacto.html`), sus versiones son la fuente de verdad — pero como su contenido inicial ahora está en inglés (con `data-es`/`data-en` invertidos respecto a como se construyeron originalmente), edítalas directamente. Regenera después el alias en inglés correspondiente (o pídeselo a Claude Code) para que no quede desincronizado.
+**Si editas cualquiera de las 6 páginas canónicas** (`index.html`, `beneficios.html`, `comercial.html`, `firma.html`, `contacto.html`, `productos.html`), sus versiones son la fuente de verdad — pero como su contenido inicial ahora está en inglés (con `data-es`/`data-en` invertidos respecto a como se construyeron originalmente), edítalas directamente. Regenera después el alias en inglés correspondiente (o pídeselo a Claude Code) para que no quede desincronizado.
 
 `assets/js/main.js` toma el idioma por defecto del propio `<html lang="...">` de cada página en vez de asumir uno fijo — así el toggle y el guardado en `localStorage` funcionan igual en las 9 páginas sin duplicar el script. Visitar cualquier página deja todo el sitio en ese idioma (vía `localStorage`), incluida la landing.
 

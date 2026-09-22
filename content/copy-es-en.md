@@ -36,7 +36,7 @@ Al editar aquí, actualiza también los atributos `data-es` y `data-en` en `inde
 | Propiedad comercial y riesgo de viento | Commercial property and windstorm |
 | Responsabilidad general y profesional | General and professional liability |
 | Interrupción de negocio y continuidad | Business interruption and continuity |
-| Flota, marítimo y compensación obrera | Fleet, marine and workers' compensation |
+| Flota y marítimo | Fleet and marine |
 | Hablar de riesgo comercial → | Talk about commercial risk → |
 | Tres etapas. La tercera es la que importa. | Three stages. The third is the one that counts. |
 | Diagnóstico | Diagnosis |
