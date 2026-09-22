@@ -49,7 +49,7 @@ Al editar aquí, actualiza también los atributos `data-es` y `data-en` en `inde
 | Arcem: la ciudadela, la parte que no cede. | Arcem: the citadel — the part that does not give. |
 | El nombre viene del latín. Es la misma raíz que nombra la fortaleza que lleva quinientos años frente al Atlántico, a veinte minutos de nuestra oficina. No es una metáfora cómoda: es el estándar con el que medimos un programa de seguros. | The name comes from Latin. It shares a root with the fortress that has stood facing the Atlantic for five hundred years, twenty minutes from our office. It is not a comfortable metaphor — it is the standard we measure an insurance program against. |
 | Años de experiencia<br>de nuestros socios | Years of experience<br>our partners bring |
-| En prima colocada<br>por nuestros socios | In premium placed<br>by our partners |
+| En prima colocada por nuestros<br>socios a través de su trayectoria | In premium placed by our partners<br>over the course of their careers |
 | Acceso a los principales carriers<br>de PR y mercados como Lloyd's | Access to Puerto Rico's leading<br>carriers and markets like Lloyd's |
 | Vidas cubiertas a lo largo de<br>la trayectoria de nuestros socios | Lives covered over the course<br>of our partners' careers |
 | Conversemos | Let's talk |
