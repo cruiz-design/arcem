@@ -2,7 +2,7 @@
 
 Todo el texto visible del sitio, en español e inglés.
 
-El español es el idioma por defecto. **Las traducciones no son literales** — algunas frases se reformularon para que funcionen en inglés.
+El inglés es el idioma por defecto (cambió de español a inglés — ver `CLAUDE.md`). **Las traducciones no son literales** — algunas frases se reformularon para que funcionen en cada idioma.
 
 Al editar aquí, actualiza también los atributos `data-es` y `data-en` en `index.html` (o pídele a Claude Code que sincronice los dos).
 

@@ -82,23 +82,25 @@ Estas no se negocian sin hablar con el cliente primero.
 
 ## El sistema bilingüe
 
-Español por defecto, inglés con el selector del encabezado. Funciona así:
+**Inglés por defecto, español con el selector del encabezado.** (Cambió de español a inglés como idioma base — ver nota de fecha abajo.) Funciona así:
 
 Cualquier elemento con texto traducible lleva **dos atributos**:
 
 ```html
-<h3 data-es="Diagnóstico" data-en="Diagnosis">Diagnóstico</h3>
+<h3 data-es="Diagnóstico" data-en="Diagnosis">Diagnosis</h3>
 ```
 
-`assets/js/main.js` recorre `[data-es][data-en]` y asigna el `innerHTML` correspondiente. La preferencia se guarda en `localStorage` bajo la clave `arcem-lang`, envuelta en `try/catch`.
+`assets/js/main.js` recorre `[data-es][data-en]` y asigna el `innerHTML` correspondiente. La preferencia se guarda en `localStorage` bajo la clave `arcem-lang`. El idioma por defecto de cada página (cuando no hay preferencia guardada) sale del propio `<html lang="...">` del archivo — así cada página declara su idioma base sin que el script lo asuma.
 
 **Al añadir cualquier texto nuevo:**
 - Ponle `data-es` y `data-en`
-- El contenido visible inicial va en español (es el idioma por defecto)
+- El contenido visible inicial va en **inglés** (es el idioma por defecto) — el valor de `data-en` debe ser idéntico al contenido entre las etiquetas
 - Los valores pueden llevar HTML simple (`<em>`, `<strong>`) — se asigna por `innerHTML`, y el contenido es propio, no de usuario
 - No metas comillas dobles sin escapar dentro de los atributos
 
-**Al traducir al inglés:** no traduzcas literalmente. La copy en español se escribió primero y algunas frases tienen que reformularse para funcionar. `content/copy-es-en.md` tiene los dos idiomas lado a lado.
+**Al traducir al español:** no traduzcas literalmente. La copy se piensa primero en inglés y algunas frases tienen que reformularse para funcionar en español. `content/copy-es-en.md` tiene los dos idiomas lado a lado.
+
+**Nota histórica:** el sitio se construyó originalmente con español como idioma base (así siguen naciendo los archivos `beneficios.html`, `comercial.html`, `firma.html`, `contacto.html` — nombrados en español, con las rutas en inglés como alias separados). El cliente pidió cambiar el idioma base a inglés en todas las páginas — hecho invirtiendo qué atributo (`data-es`/`data-en`) queda como contenido visible inicial y cambiando `<html lang>` a `"en"` en las 9 páginas, sin renombrar archivos ni cambiar URLs.
 
 ---
 
@@ -144,9 +146,11 @@ El header ahora incluye un enlace a "La firma" en las 9 páginas existentes, y e
 
 ### Cómo funcionan los alias en inglés
 
-Son archivos separados (`benefits.html`, `commercial.html`, `about.html`, `contact.html`), no redirects. Cada uno tiene su contenido **ya resuelto en inglés** en el HTML fuente (no solo `<html lang="en">` con texto en español esperando a que corra `main.js`) — evita el parpadeo de idioma y mantiene el `lang` del documento consistente con el contenido para SEO/accesibilidad desde la primera carga. Se generan a partir de su par en español; si editas `beneficios.html`, `comercial.html`, `firma.html` o `contacto.html`, hay que regenerar el alias correspondiente (o pedírselo a Claude Code) para que no queden desincronizados.
+Son archivos separados (`benefits.html`, `commercial.html`, `about.html`, `contact.html`), no redirects — URLs limpias en inglés para linkear directamente. Desde que el idioma base cambió a inglés en las 9 páginas, su contenido es prácticamente igual al de su archivo hermano en español (`beneficios.html`, `comercial.html`, `firma.html`, `contacto.html`): ambos muestran inglés por defecto. La única diferencia real entre cada par es la URL/canonical y, si hace falta, sus propios meta tags. Cada archivo tiene su contenido **ya resuelto en el idioma que le toca mostrar por defecto** directamente en el HTML fuente (no solo `<html lang>` con texto esperando a que corra `main.js`) — evita el parpadeo de idioma y mantiene el `lang` del documento consistente con el contenido para SEO/accesibilidad desde la primera carga.
 
-`assets/js/main.js` toma el idioma por defecto del propio `<html lang="...">` de cada página en vez de asumir español siempre — así el toggle y el guardado en `localStorage` funcionan igual en las 9 páginas sin duplicar el script. Visitar cualquier página en inglés deja todo el sitio en inglés (vía `localStorage`), incluida la landing, aunque esta no tenga URL propia en inglés.
+**Si editas cualquiera de las 5 páginas canónicas** (`index.html`, `beneficios.html`, `comercial.html`, `firma.html`, `contacto.html`), sus versiones son la fuente de verdad — pero como su contenido inicial ahora está en inglés (con `data-es`/`data-en` invertidos respecto a como se construyeron originalmente), edítalas directamente. Regenera después el alias en inglés correspondiente (o pídeselo a Claude Code) para que no quede desincronizado.
+
+`assets/js/main.js` toma el idioma por defecto del propio `<html lang="...">` de cada página en vez de asumir uno fijo — así el toggle y el guardado en `localStorage` funcionan igual en las 9 páginas sin duplicar el script. Visitar cualquier página deja todo el sitio en ese idioma (vía `localStorage`), incluida la landing.
 
 ### 🟢 Pendientes de diseño
 
