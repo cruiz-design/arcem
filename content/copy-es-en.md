@@ -16,7 +16,7 @@ Al editar aquí, actualiza también los atributos `data-es` y `data-en` en `inde
 | Agendar consulta | Book a consult |
 | Corredores de seguros · San Juan, Puerto Rico | Insurance brokers · San Juan, Puerto Rico |
 | El seguro se prueba <em>un solo día.</em> | Insurance is tested on <em>one single day.</em> |
-| El manejo de riesgo es lo nuestro. Diseñamos programas de riesgo comercial y de beneficios, construidos para responder cuando llega la pérdida — gestionados codo a codo con usted y su equipo, no a distancia. Está en el nombre: Arcem significa ciudadela — la parte que no cede. | We thrive on our knowledge of risk management. We design commercial risk and employee benefits programs, built to respond when that loss comes — managed side by side with you and your team, not from a distance. It's in the name: Arcem means citadel — the part that doesn't give. |
+| Sabemos de manejo de riesgo. Diseñamos programas de riesgo comercial y de beneficios, construidos para responder cuando llega la pérdida — gestionados mano a mano con usted y su equipo, no a distancia. Está en el nombre: Arcem significa ciudadela — la parte que no cede. | We thrive on our knowledge of risk management. We design commercial risk and employee benefits programs, built to respond when that loss comes — managed side by side with you and your team, not from a distance. It's in the name: Arcem means citadel — the part that doesn't give. |
 | Agendar una consulta | Schedule a consultation |
 | Ver las dos prácticas | See both practices |
 | Employee Benefits | Employee Benefits |
