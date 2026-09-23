@@ -18,7 +18,7 @@ Al editar aquí, actualiza también los atributos `data-es` y `data-en` en `inde
 | El seguro se prueba en <em>un solo día.</em> | Insurance is tested on <em>one single day.</em> |
 | Sabemos de manejo de riesgo. Diseñamos programas de riesgo comercial y de beneficios, construidos para responder cuando llega la pérdida — gestionados mano a mano con usted y su equipo, no a distancia. Está en el nombre: Arcem significa ciudadela — la parte que no cede. | We thrive on our knowledge of risk management. We design commercial risk and employee benefits programs, built to respond when that loss comes — managed side by side with you and your team, not from a distance. It's in the name: Arcem means citadel — the part that doesn't give. |
 | Contáctenos | Contact Us |
-| Ver las dos prácticas | See both practices |
+| Nuestra Experiencia | Our Expertise |
 | Employee Benefits | Employee Benefits |
 | Commercial Property & Casualty | Commercial Property & Casualty |
 | Dos prácticas · una firma | Two practices · one firm |
