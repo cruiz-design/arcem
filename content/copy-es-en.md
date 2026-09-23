@@ -15,7 +15,7 @@ Al editar aquí, actualiza también los atributos `data-es` y `data-en` en `inde
 | Cómo trabajamos | How we work |
 | Agendar consulta | Book a consult |
 | Corredores de seguros · San Juan, Puerto Rico | Insurance brokers · San Juan, Puerto Rico |
-| Lo que diseñamos se prueba <em>un solo día.</em> | What we design is tested on <em>one single day.</em> |
+| Lo que diseñamos se prueba en <em>un solo día.</em> | What we design is tested on <em>one single day.</em> |
 | Sabemos de manejo de riesgo. Diseñamos programas de riesgo comercial y de beneficios, construidos para responder cuando llega la pérdida — gestionados mano a mano con usted y su equipo, no a distancia. Está en el nombre: Arcem significa ciudadela — la parte que no cede. | We thrive on our knowledge of risk management. We design commercial risk and employee benefits programs, built to respond when that loss comes — managed side by side with you and your team, not from a distance. It's in the name: Arcem means citadel — the part that doesn't give. |
 | Agendar una consulta | Schedule a consultation |
 | Ver las dos prácticas | See both practices |
@@ -76,7 +76,7 @@ Al editar aquí, actualiza también los atributos `data-es` y `data-en` en `inde
 
 ## Notas de redacción
 
-**El titular es la apuesta.** «Lo que diseñamos se prueba un solo día» dice algo verdadero y específico de la categoría en lugar de vender confianza genérica, y ahora le da la agencia a ARCEM en vez de al seguro en abstracto. No lo suavices.
+**El titular es la apuesta.** «Lo que diseñamos se prueba en un solo día» dice algo verdadero y específico de la categoría en lugar de vender confianza genérica, y ahora le da la agencia a ARCEM en vez de al seguro en abstracto. No lo suavices.
 
 **El detalle local no es adorno.** En Commercial P&C: «la cobertura correcta se define en abril, no se descubre en septiembre». Cualquiera en Puerto Rico entiende de inmediato que se habla de temporada de huracanes. Mantén ese registro: concreto, local, sin explicar el chiste.
 
